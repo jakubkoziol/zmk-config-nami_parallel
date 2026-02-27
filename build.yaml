@@ -20,18 +20,18 @@
 ---
 include:
 
-  - board: rp2040_zero
+  - board: rpi_pico
     shield: nami_parallel
 
 ## To build with ZMK Studio support, uncomment the following block
 ## by removing the leading '#' from each line.
 
-  - board: rp2040_zero
+  - board: rpi_pico
     shield: nami_parallel
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: nami_parallel_with_studio
 
-  - board: rp2040_zero
+  - board: rpi_pico
     shield: settings_reset
   
